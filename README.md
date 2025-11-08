@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # CristiqBot
+
+A Minecraft plugin that adds an AI assistant to your server using Together.ai's Gemini model. Compatible with Paper/Folia 1.20.4.
 
 A Minecraft plugin that adds an AI assistant to your server using Together.ai's Gemini model. Compatible with Paper/Folia 1.20.4.
 
@@ -51,3 +54,6 @@ Edit `plugins/CristiqBot/config.yml` to customize:
 1. Install JDK 17 and Maven
 2. Run `mvn clean package`
 3. Find the built plugin in `target/CristiqBot-1.0.0.jar`
+=======
+# cristiqbot
+>>>>>>> 6b2b98cbc58932efead7886f0f73a48076901bf3
