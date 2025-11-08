@@ -1,0 +1,18 @@
+name: CristiqBot
+version: 1.0.0
+main: com.example.cristiqbot.CristiqBot
+api-version: 1.20
+folia-supported: true
+depend: [Paper]
+commands:
+  cristiqbot:
+    description: Main command for CristiqBot
+    usage: /cristiqbot <talkai|search>
+    permission: cristiqbot.use
+permissions:
+  cristiqbot.use:
+    description: Allows use of CristiqBot
+    default: true
+  cristiqbot.admin:
+    description: Admin access
+    default: op

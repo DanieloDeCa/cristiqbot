@@ -1,0 +1,18 @@
+ai:
+  provider: "gemini"
+  api_key: "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"
+  model: "flash-experimental"
+  
+chat:
+  enabled_by_default: false
+  mention_prefix: "CristiqBot"
+  personality: "Friendly, witty, and helpful"
+
+search:
+  scan_radius: 500
+  max_results: 3
+  highlight_blocks:
+    - CHEST
+    - FURNACE
+    - CRAFTING_TABLE
+  cooldown_seconds: 30
