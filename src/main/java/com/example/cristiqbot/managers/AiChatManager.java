@@ -32,7 +32,7 @@ public class AiChatManager implements Listener {
         PlayerState state = getPlayerState(player);
         state.setChatEnabled(enable);
         if (enable) {
-            Bukkit.getScheduler().runTask(plugin, () -> player.sendMessage("CristiqBot: "Hello, I'm CristiqBot — your AI companion in this world!""));
+            Bukkit.getScheduler().runTask(plugin, () -> player.sendMessage("CristiqBot: Hello, I'm CristiqBot - your AI companion in this world!"));
         }
     }
 

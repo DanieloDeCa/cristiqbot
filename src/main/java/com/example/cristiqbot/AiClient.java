@@ -53,6 +53,7 @@ public class AiClient {
             requestBody.set("messages", objectMapper.createArrayNode().add(message));
             requestBody.put("max_tokens", 150);
             requestBody.put("temperature", 0.7);
+        }
 
         try {
             String json = objectMapper.writeValueAsString(requestBody);
